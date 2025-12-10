@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "NodeJS"   // nama NodeJS dari Jenkins configuration
+        nodejs "node25"   // nama NodeJS dari Jenkins configuration
     }
 
     stages {
