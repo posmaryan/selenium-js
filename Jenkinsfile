@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/username/selenium-js.git'
+                    url: 'https://github.com/posmaryan/selenium-js.git'
             }
         }
 
